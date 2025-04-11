@@ -49,7 +49,7 @@ function App() {
       setImages((prev) => [...prev, ...response.results]);
       requestAnimationFrame(() => {
         window.scrollBy({
-          top: window.innerHeight / 1.3,
+          top: window.innerHeight / 1.2,
           behavior: "smooth",
         });
       });
